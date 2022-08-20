@@ -3,7 +3,7 @@ import ButtonUi from './components/ButtonUi';
 
 function App() {
   return (
-    <ButtonUi>Hello word.</ButtonUi>
+    <ButtonUi>Hello world.</ButtonUi>
   )
 }
 
