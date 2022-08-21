@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspace": [
+    "app",
+    "ui"
+  ],
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "deploy": "turbo run build --scope=app --includeDependencies --no-deps"
   },
   "turbo": {
     "pipeline": {
