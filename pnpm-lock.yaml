@@ -4,8 +4,10 @@ importers:
 
   .:
     specifiers:
+      pnpm: ^7.9.3
       turbo: ^1.4.3
     devDependencies:
+      pnpm: 7.9.3
       turbo: 1.4.3
 
   app:
@@ -2384,6 +2386,12 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
+
+  /pnpm/7.9.3:
+    resolution: {integrity: sha512-0hpAD1vtILw0i9gTN4ffagnScWMW9/avfZIKllBUd++fAvCss+hVgPPDd0HS9XcOT675gid4H9esGkbLdaFy+w==}
+    engines: {node: '>=14.6'}
+    hasBin: true
     dev: true
 
   /postcss/8.4.14:
